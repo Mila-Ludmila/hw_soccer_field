@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+}
+#soccerField {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+
+  background-image: url(./img/img1.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#soccerBall {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+
+  background-image: url(./img/ball.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  
+  transition: transform 0.5s;
+  transform-origin: center center;
+}
